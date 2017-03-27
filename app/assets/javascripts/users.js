@@ -1,7 +1,6 @@
 /* global $, Stripe */
 //Document Ready
 $(document).on('turbolinks:load', function(){
-  
   var theForm = $('#pro_form');
   var submitBtn = $('#pro-submit-btn');
 
