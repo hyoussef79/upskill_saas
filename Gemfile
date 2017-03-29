@@ -27,7 +27,7 @@ gem 'jbuilder', '2.5.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Use Twitter Bootstrap for front-end UI and layout 
+# Use Twitter Bootstrap for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
 # Use Font Awesome for icons
@@ -68,4 +68,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-ruby '2.3.0'
+ruby '2.3.3'
