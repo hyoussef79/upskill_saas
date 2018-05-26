@@ -243,7 +243,6 @@ DEPENDENCIES
   sqlite3
   stripe (= 1.48.0)
   turbolinks (= 5.0.0)
-  tzinfo-data
   uglifier (= 3.0.0)
   web-console
 
