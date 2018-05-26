@@ -21,7 +21,7 @@ module Users
     private
 
     def select_plan
-      return unless params[:plan] == '1' || params[:plan] == '2'
+      return if params[:plan] == '1' || params[:plan] == '2'
       flash[:notice] = 'Please select a membership plan'
       redirect_to root_path
     end
