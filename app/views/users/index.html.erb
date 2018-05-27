@@ -9,13 +9,6 @@
             <li>
               <div class="well row <%= cycle('light-orange-bg', '') %>">
                 <div class="col-sm-4 text-center">
-                  <% if false %>
-                    <% if user.profile.avatar %>
-                      <%= link_to user do %>
-                        <%= image_tag user.profile.avatar.url, class: 'avatar-index-img' %>
-                      <% end %>
-                    <% end %>
-                  <% end %>
                   <%= link_to user do %>
                     <%= image_tag "http://www.gravatar.com/avatar/?d=mm", class: 'avatar-index-img' %>
                   <% end %>

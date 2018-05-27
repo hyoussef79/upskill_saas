@@ -38,7 +38,6 @@ class ProfilesController < ApplicationController
     params.require(:profile).permit(
       :first_name,
       :last_name,
-      :avatar,
       :phone_number,
       :job_title,
       :contact_email,

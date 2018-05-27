@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.3.3'
 
-
-gem 'aws-sdk', '< 2.0'
 gem 'bootstrap-sass', '3.3.7'
 gem 'coffee-rails', '4.2.1'
 gem 'devise', '4.2.0'
@@ -11,8 +9,6 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 gem 'jbuilder'
 gem 'jquery-rails', '4.1.1'
-gem "mini_magick"
-gem 'paperclip'
 gem 'puma', '3.4.0'
 gem 'rails', '5.0.0'
 gem 'rubocop', require: false
