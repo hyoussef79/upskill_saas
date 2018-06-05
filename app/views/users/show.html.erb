@@ -17,6 +17,25 @@
         <h3>Description</h3>
         <%= @user.profile.description %>
       </div>
+      <% if @user.comments.any? %>
+        Comments:
+        <div>
+          <% @comments.each do |comment| %>
+            <h4>
+              <%= comment.message %>
+            </h4>
+          <% end %>
+        </div>
+      <% end %>
+      <div class="well">
+        <%= form_for @comment, as: :comment, url: user_comments_path(@user) do |f| %>
+          <div class="form-group">
+            <%= f.label :message %>
+              <%= f.text_field :message, class: 'form-control' %>
+          </div>
+          <%= f.submit 'Submit', class: 'btn btn-default' %>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>
